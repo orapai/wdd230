@@ -39,7 +39,7 @@ header, footer, section h3 {
 }
 
 main {
-	max-width: 767px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -70,6 +70,7 @@ footer p,section h3 {
 nav {
 	background-color: var(--accent1-color);
 	margin: 0 auto;
+
 }
 nav ul, .card ul {
 	list-style-type: none;
