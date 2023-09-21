@@ -5,10 +5,8 @@
 	nav ul li {
 		flex: 1 1 100%;
 	}
-	.cards {
-        display: flex;
-    }
-    .cards .card {
-        flex: 1 1 100%;
+	div{
+        display: grid;
+		grid-template-columns: 1fr 1fr;
     }
 }
