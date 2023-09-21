@@ -9,13 +9,9 @@ header, main, footer{
     padding: 1rem;
     background-color: rgb(141, 215, 247);
 }
-header{
-    background-color: black;
-    color: white;
-}
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 1rem;
 }
 section{
