@@ -27,7 +27,38 @@ body {
 
 h1, h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
- }
+}
+
+.hero{
+    display: grid;
+    gap: 25px;
+    margin: 9px auto;
+	position: relative;
+}
+
+.herogrid{
+    display: grid;
+}
+
+.hero button{
+    position: absolute;
+	top: 2px;
+	left: 16px;
+    width: 100%;
+    margin: 0;
+    border: 3px solid rgba(0, 0, 0, 0.86);
+    background-color: #f0fb1c4f;
+    color: var(--accent1-color);
+	box-shadow: 0 0 30px #7697cb;
+	opacity: 5;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 /* mobile **************************/
 header, footer, section h3 {
