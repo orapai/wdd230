@@ -21,13 +21,6 @@
 	box-sizing: border-box;
 }
 
-#mode {
-	top: 1rem;
-	right: 1rem;
-	font-size: 3rem;
-	cursor: pointer;
-}
-
 body {
 	font-family: 'Roboto', sans-serif;
 }
