@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivy Orapa - WDD 230 - Responsive Images: srcset</title>
+    <meta name="description" content="WDD 230 - Responsive Images: srcset | Ivy Orapa ">
+    <meta name="author" content="Ivy Orapa">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt="hero image" width="1500" height="750">
+            </picture>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2023 | Ivy Orapa | Responsive Images</p>
+    </footer>
+</body>
+</html>
