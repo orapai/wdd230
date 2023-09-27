@@ -1,0 +1,26 @@
+h1, footer {
+    text-align: center;
+    color: blue;
+}
+main {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width: 100%;
+    background:black;
+    animation: fade 5s;
+    /* animation-timing-function: ease-in;
+    animation-fill-mode: forwards; */
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

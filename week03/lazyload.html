@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivy Orapa - WDD 230 - Lazy Loading Demonstration</title>
+    <meta name="description" content="WDD 230 - Lazy Loading Demonstration | Ivy Orapa | course assignment portal.">
+    <meta name="author" content="Ivy Orapa">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Native Lazy Loading Demo</h1>
+    </header>
+    <main>
+        <picture>
+            <img src="https://via.placeholder.com/400x600/" alt="image of placeholder" loading="lazy" height="600" width="400">
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x600/" alt="image of placeholder" loading="lazy" height="600" width="400">
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x800/" alt="image of placeholder" loading="lazy" height="600" width="400">
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x900/" alt="image of placeholder" loading="lazy" height="600" width="400">
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x850/" alt="image of placeholder" loading="lazy" height="600" width="400">
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x750/" alt="image of placeholder" loading="lazy" height="600" width="400">
+        </picture>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> | Ivy Orapa | Lazy Loading Demonstration</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>
