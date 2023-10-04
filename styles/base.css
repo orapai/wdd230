@@ -39,6 +39,25 @@ header, footer, section h3 {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.hero h1{
+    position: absolute;
+	top: 365px;
+	left: 305px;
+    width: auto;
+    margin: 0;
+    border: 1px solid rgba(0,0,0,.2);
+    background-color: var(--accent3-color);
+    color: var(--primary-color);
+	box-shadow: 0 0 30px #917e7e;
+	opacity: 1;
+    text-align: center;
+}
+
+.hero img {
+	width: auto;
+	height: auto;
+}
+
 main {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -72,7 +91,6 @@ footer p,section h3 {
 nav {
 	background-color: var(--accent1-color);
 	margin: 0 auto;
-
 }
 
 nav ul, .card ul {
@@ -95,10 +113,6 @@ nav a:hover {
 	border: 1px solid #fff;
 }
 
-.active {
-	color: yellow;
-}
-
 div {
     display: grid;
     grid-template-columns: 1fr;
@@ -112,7 +126,7 @@ div {
     margin: 2rem 1rem 1rem 1rem;
 }
 
-.card ul li {
+.card ul li, .card p {
     padding: 5px;
 }
 
@@ -177,4 +191,8 @@ div {
 }
 .open li a {
 	display: block;
+}
+
+.active {
+	color: yellow;
 }

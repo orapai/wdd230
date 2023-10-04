@@ -21,4 +21,18 @@
 		display: block;
 		flex: 1 1 100%;
 	}
+
+	.hero h1{
+		position: absolute;
+		top: 450px;
+		left: 220px;
+		width: auto;
+		margin: 0;
+		border: 1px solid rgba(0,0,0,.2);
+		background-color: whitesmoke;
+		color: var(--primary-color);
+		box-shadow: 0 0 30px #917e7e;
+		opacity: 1;
+		text-align: center;
+	}
 }

@@ -14,17 +14,14 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="images/profile.jpg" alt="image of Ivy Orapa">
+        <img src="images/profile.webp" alt="image of Ivy Orapa" width="200" height="220">
         <h1>Ivy Orapa</h1>
     </header>
     <nav>
-        <button id="menu"></button>
+        <button id="menu" aria-label="menu"></button>
         <ul class="navigation">
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Chamber</a></li>
@@ -32,10 +29,20 @@
             <li><a href="#">Form</a></li>
         </ul>
     </nav>
-    <div id="mode">
+    <div>
+        <button id="mode" aria-label="dark mode">
         ☑️
+        </button>
     </div>
     <main>
+        <div class="hero">
+            <h1>Salt Lake Temple</h1>
+            <picture>
+                <source srcset="images/slctemple-small.webp" media="(max-width: 400px)">
+                <source srcset="images/slctemple-medium.webp" media="(max-width: 960px)">
+                <img src="images/slctemple-large.webp" alt="hero image" width="1500" height="750" loading="lazy">
+            </picture>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
         <div>
             <section class="card">
@@ -50,8 +57,9 @@
             </section>
             <section class="card">
                 <h3>Information</h3>
-                <p></p>
+                <p><span class="label">Visit Count: </span><span class="visits"></span></p>
             </section>
+            <iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125592.67486551507!2d123.85247017792163!3d10.360179600287141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999258dcd2dfd%3A0x4c34030cdbd33507!2sCebu%20City%2C%206000%20Cebu!5e0!3m2!1sen!2sph!4v1696396440332!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
     <footer>
@@ -61,5 +69,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/hamButton.js"></script>
+    <script src="scripts/localStorage.js"></script>
 </body>
 </html>
