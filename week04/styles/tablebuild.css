@@ -1,0 +1,42 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+table {
+	margin: 1px;
+	border: thin solid black;
+	box-shadow: 0 0 10px black;
+	border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+	color: gray;
+    font-size: .85rem;
+    position: absolute;
+    top: 220px;
+    left: 92px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+  
+.title, .col-title>td {
+    background-color: black;
+    color: white;
+}
+.col-title th {
+    background-color: gray;
+    border: gray;
+    color: white;
+}
+  
+td {
+    text-align: center;
+}
+  
+.highlight~td, .highlight {
+    background-color:  rgb(213, 211, 211);
+}
