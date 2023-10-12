@@ -8,6 +8,15 @@
                     "title": "CSS Lyout Review"
                 }
             ]
+        },
+        {
+            "week":"Week 2",
+            "links": [
+                {
+                    "url": "https://orapai.github.io/wdd230/week02/design.html",
+                    "title": "Web Design Principles"
+                }
+            ]
         }
     ]
 }
