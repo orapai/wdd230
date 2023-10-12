@@ -6,12 +6,28 @@
                 {
                     "url": "https://orapai.github.io/wdd230/week01/holygrail.html",
                     "title": "CSS Lyout Review"
+                },
+                {
+                    "url": "https://codepen.io/Ivy-Orapa/pen",
+                    "title": "Applied JavaScript"
+                },
+                {
+                    "url": "https://orapai.github.io/wdd230/week01/media-query.html",
+                    "title": "CSS Media Queries"
                 }
             ]
         },
         {
             "week":"Week 2",
             "links": [
+                {
+                    "url": "https://orapai.github.io/wdd230/week02/design.html",
+                    "title": "Web Design Principles"
+                },
+                {
+                    "url": "https://orapai.github.io/wdd230/week02/design.html",
+                    "title": "Web Design Principles"
+                },
                 {
                     "url": "https://orapai.github.io/wdd230/week02/design.html",
                     "title": "Web Design Principles"

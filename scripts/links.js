@@ -10,8 +10,10 @@ async function getLinks(){
 getLinks();
 
 const displayLinks = (weeks) =>{
-    weeks.weeks[0].links.forEach(URL => {
-        console.log(URL);
+    // weeks.weeks[0].links.forEach(URL => {
+    //     console.log(URL);
+    // });
+    weeks.weeks.forEach(element => {
+        console.log(element);
     });
-
 }
